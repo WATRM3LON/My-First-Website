@@ -5,7 +5,7 @@
 }
 
 .menus{
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,8 @@
     border: 0px;
     color: white;
     font-family: 'Quicksand';
-    margin: 0 20px 0 20px;
+    font-size: 18px;
+    margin: 0 30px 0 30px;
 }
 
 .profile1{
@@ -27,14 +28,16 @@
     color: white;
     font-family: 'Montserrat';
     font-weight: bolder;
-    font-size: 50px;
-    margin-left: 200px;
+    font-size: 100px;
+    margin-left: 13%;
+    
 }
 
 #namedesc{
+    margin-top: -80px;
     color: white;
     font-family: 'Montserrat';
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 200px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 13%;
 }
