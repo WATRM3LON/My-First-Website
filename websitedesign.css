@@ -26,7 +26,15 @@
 #name{
     color: white;
     font-family: 'Montserrat';
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 200px;
+}
+
+#namedesc{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px;
 }
