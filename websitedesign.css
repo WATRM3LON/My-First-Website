@@ -3,3 +3,30 @@
     background-color: #ae6e40;
     background-image: linear-gradient(to right, #ae6e40 , #181e41);
 }
+
+.menus{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menubutton{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'Quicksand';
+    margin: 0 20px 0 20px;
+}
+
+.profile1{
+    padding-top: 50px;
+}
+
+#name{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 50px;
+}
