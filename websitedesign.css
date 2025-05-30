@@ -1,0 +1,214 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Quicksand';
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.menu_divider{
+    background-color: black;
+    height: 1px;
+    margin: -30px auto 0 auto;
+    width: 60%;
+}
+
+.menu{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-family:'Century Gothic';
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 10px;
+}
+
+.title1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title{
+    font-weight: normal;
+    text-align: center;
+}
+
+h1.title{
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+}
+
+.image_show{
+    width: 60%;
+    margin: 60px auto 0 auto;
+    background-color: aliceblue;
+    border: 3px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.title2{
+    margin-top: 80px;
+    background-color: #E8E6E6;
+    padding-bottom: 150px;
+}
+
+.title21{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: normal;  
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.container2 {
+    margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item2 {
+  width: 30%;
+  min-width: 250px;
+  padding-bottom: 20px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.item2pic {
+  margin: 30px auto 20px;
+  width: 120px;
+  height: 120px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: background-color 0.5s;
+}
+
+.item2pic:hover{
+    background-color: black;
+}
+
+.p2{
+    text-align: center;
+    font-weight: normal;
+    margin: 20px;
+}
+
+h1.p2{
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+p.p2{
+    margin: 50px 40px 0px 40px;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+
+.title3{
+    margin-top: -50px;
+    padding-top: 10px;
+    background-color: black;
+    height: 250px;
+}
+
+h1.title31{
+    padding-top: 30px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+p.title31{
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.title32{
+    background-color: #ffffff;
+    height: 2px;
+    margin: 0 auto;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.title4{
+    height: 600px;
+}
+
+.container4{
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item4{
+    background-color: antiquewhite;
+    margin: 10px;
+    flex-grow: 1;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+}
+
+.view_more{
+    background-color: #2e2d2d;
+    color: #ffffff;
+    font-family:'Century Gothic';
+    font-size: 15px;
+    margin: 30px auto;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.title5{
+    background-color: black;
+    height: 300px;
+}
+
+.title6{
+    margin-top: 50px;
+    background-color: #E8E6E6;
+    height: 500px;
+}
+
+.title7{
+    height: 900px;
+}
+
+.title8{
+    background-color: rgb(94, 93, 93);
+    height: 250px;
+}
