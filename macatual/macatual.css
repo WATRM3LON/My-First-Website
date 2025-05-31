@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 #name {
@@ -43,7 +44,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-bottom: 10px;
     line-height: 1.2;
 }
 
@@ -57,6 +58,29 @@
 }
 
 .intro{
-    height: 200px;
-    color: aliceblue;
+    padding-bottom: 150px;
+    background-color: #eb8459;
+    background-image: linear-gradient(to right, #eb8459 , #ea645e);
+    border-radius: 20px;
+    margin: 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.introprofilepic{
+    border-radius: 100px 100px 30px;
+    margin: 0 20%;
+    margin-top: 50px;
+    width: auto;
+    max-width: 300px;
+    height: auto;
+}
+
+.introhead{
+    
 }
