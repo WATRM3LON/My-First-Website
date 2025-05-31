@@ -18,6 +18,7 @@
     font-family: 'Quicksand';
     font-size: 18px;
     margin: 0 30px 0 30px;
+    text-decoration: none;
 }
 
 .profile1 {
@@ -264,14 +265,13 @@
 }
 
 .ending1{
-    background-color: #ea625e;
     margin: 0 20%;
 }
 
 .ending1 h1{
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
@@ -279,13 +279,26 @@
 .ending1 p{
     color: rgb(230, 227, 227);
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
-    margin: 0 8%;
+    margin: 0 20%;
+    line-height: 1.5;
 }
 
-.bottom{
-    color: black;
-    height: 100px;
-    width: 500px;
+.bottom {
+    background-color: black;
+    height: 50px;
+    margin: 0 -10px;
+    margin-top: 50px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom p {
+    color: rgb(121, 119, 119);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
 }
