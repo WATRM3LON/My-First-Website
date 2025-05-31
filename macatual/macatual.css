@@ -104,8 +104,32 @@
 }
 
 .gallery{
-    height: 100px;
-    width: auto;
-    margin: 0 -10px;
+    margin: 0 10%;
+    margin-top: 100px;
 }
 
+.gallery h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.gallery1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* adjust size */
+  gap: 20px;
+  padding: 40px;
+}
+
+.gallery1 img {
+  width: 100%;
+  aspect-ratio: 1 / 1;          /* Forces square aspect ratio */
+  object-fit: cover;            /* Ensures image fills square without distortion */
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery1 img:hover {
+  transform: scale(1.05);
+}
