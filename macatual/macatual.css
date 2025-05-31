@@ -115,6 +115,10 @@
     align-items: center;
 }
 
+.techtitle{
+    margin-bottom: 10px;
+}
+
 .techtitle:hover .divider1 {
     width: 100%;
 }
@@ -122,8 +126,8 @@
 .techstack h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    margin-bottom: 30px;
+    font-size: 2.5em;
+    margin-bottom: 40px;
     margin-top: 5px;
 }
 
@@ -131,9 +135,9 @@
     background-color: #ffffff;
     height: 2px;
     margin: 0 auto;
-    width: 20%;
+    width: 40%;
     border-radius: 20px;
-    margin-top: -30px;
+    margin-top: -40px;
     margin-bottom: 40px;
     transition: width 0.3s ease;
 }
@@ -142,7 +146,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
 }
 
 .techstack-logos img {
@@ -156,6 +160,55 @@
 
 .techstack-logos img:hover {
     transform: scale(1.05);
+}
+
+.services{
+    margin: 0 19%;
+    margin-top: 130px;
+}
+
+.services h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.services1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.services2{
+    background-color: #ec9857;
+    background-image: linear-gradient(to right top, #ec9857, #ea625e);
+    border-radius: 10px;
+}
+
+.services2 img{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.services2 h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.services2 p{
+    color: rgb(230, 227, 227);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 10%;
+    margin-bottom: 30px;
 }
 
 .gallery{
@@ -172,7 +225,7 @@
 
 .gallery1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* adjust size */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 40px;
 }
@@ -187,4 +240,52 @@
 
 .gallery1 img:hover {
   transform: scale(1.05);
+}
+
+.GioLogo {
+    background-color: #ec9857;
+    background-image: linear-gradient(to right top, #ec9857, #ea625e);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.GioLogo p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ending1{
+    background-color: #ea625e;
+    margin: 0 20%;
+}
+
+.ending1 h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ending1 p{
+    color: rgb(230, 227, 227);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin: 0 8%;
+}
+
+.bottom{
+    color: black;
+    height: 100px;
+    width: 500px;
 }
