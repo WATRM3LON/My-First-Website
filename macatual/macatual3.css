@@ -30,120 +30,69 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-
-.title1{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 100px;
-    color: white;
+.project-card {
+    display: flex;
+    border-radius: 6px;
+    background-color: rgba(235, 132, 89, 0);
+    background-image: linear-gradient(to right, rgba(235, 132, 89, 0.3), rgba(234, 100, 94, 0.3));
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 50px 20%;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-
-.introprofilepic{
     transition: transform 0.3s ease;
 }
 
-.introprofilepic:hover{
-    transform: scale(1.5);
-    transition: transform 0.3s ease;
-}
-
-.Aboutme {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 50px;
-}
-
-.introprofilepic {
-    border-radius: 20px;
-    max-width: 100%;
-    height: 400px;
-    flex-shrink: 0;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.introdesc {
-    flex: 2;
-    min-width: 300px;
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.introdesc h1 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: white;
-}
-
-.introdesc p {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  color: white;
-  margin-right: 15%;
-}
-
-.item2pic{
-    margin: 30px auto 20px;
-    width: 120px;
-    height: 120px;
-    background-color: #ec9857;
-    background-image: linear-gradient(to right top, #ec9857, #ea625e);
-    border-radius: 50%;
-    transition: background-color 0.5s;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-}
-
-.hobbies {
-    margin: 0 25%;
-    margin-top: 50px;
-    padding: 50px 20px;
-}
-
-.circles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 100px;
-}
-
-.item2pic {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: white;
-    transition: transform 0.3s ease;
-}
-
-.circles1 {
-    width: 100px;
-    height: 100px;
-    border-radius: 30%;
-    padding: 20px;
-}
-
-.circles2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.item2pic:hover{
+.project-card:hover{
     transform: scale(1.05);
-    transition: transform 0.3s ease;
 }
+
+.project-text {
+    display: flex;
+    position: relative;
+    padding: 40px 30px;
+    background-color: #ffffff;
+}
+
+.text-content {
+    padding-left: 20px;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.project-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.role-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.project-text p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.project-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    padding: 20px;
+    width: 500px;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 
 .GioLogo {
     background-color: #ec9857;
