@@ -28,6 +28,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
+    animation: appear2 linear;
+    animation-duration: 0.3s;
 }
 
 #name {
@@ -73,6 +75,40 @@
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5; 
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes secondappear {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes appear2 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .introprofilepic {
@@ -114,6 +150,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .techtitle{
@@ -157,6 +196,9 @@
     padding: 1px;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    animation: secondappear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .techstack-logos img:hover {
@@ -186,6 +228,14 @@
     background-color: #ec9857;
     background-image: linear-gradient(to right top, #ec9857, #ea625e);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    animation: secondappear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.services2:hover{
+    transform: scale(1.05);
 }
 
 .services2 img{
@@ -237,6 +287,9 @@
   object-fit: cover;          
   border-radius: 10px;
   transition: transform 0.3s ease;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .gallery1 img:hover {
