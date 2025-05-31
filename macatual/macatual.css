@@ -256,12 +256,13 @@
     margin-top: 100px;
 }
 
-.GioLogo p {
+.GioLogo a {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: bold;
     margin: 0;
+    text-decoration: none;
 }
 
 .ending1{
