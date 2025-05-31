@@ -62,8 +62,7 @@
     font-family: 'Montserrat', sans-serif;
     transition: transform 0.3s ease;
     animation: secondappear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-duration: 0.5s;
 }
 
 .project-card:hover{
