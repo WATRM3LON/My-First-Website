@@ -7,8 +7,7 @@ A simple personal profile web page built with HTML and CSS. This project showcas
 - Responsive layout
 - Profile photo
 - Brief bio/description
-- Contact information (email, phone, links)
-- Social media icons
+- Techstack
 - Clean and modern design using pure CSS
 
 ## 🛠 Technologies Used
